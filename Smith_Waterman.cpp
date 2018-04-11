@@ -63,14 +63,12 @@ void smith_waterman(string &a,string &b,ll s,ll mm,ll g){             //Dynamic 
     cout<<"\nAlignment:\n"<<ans1<<'\n'<<ans2<<endl;
 }
 
-int main(){
-    
-    ll n,m;                     //Declaration of Variables
-    string a,b;
+int main(){                
+    string a,b;             //Declaration of Variables
     ll scoring;
     ll gap_penalty,mismatch;
 
-    cout<<"\n---Program for DNA/RNA Sequence Alignment---\n";
+    cout<<"\n--- Program for DNA/RNA Sequence Alignment ---\n";
     cout<<"\nMatch Score: ";          //Input
     cin>>scoring;
     cout<<"\nMismatch Score: ";
